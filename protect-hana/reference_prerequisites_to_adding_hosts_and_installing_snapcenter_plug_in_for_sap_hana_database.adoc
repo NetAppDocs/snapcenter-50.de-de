@@ -1,0 +1,100 @@
+---
+permalink: protect-hana/reference_prerequisites_to_adding_hosts_and_installing_snapcenter_plug_in_for_sap_hana_database.html 
+sidebar: sidebar 
+keywords: credentials 
+summary: Bevor Sie einen Host hinzufügen und die Plug-in-Pakete installieren, müssen Sie alle Anforderungen erfüllen. Das SnapCenter Plug-in für SAP HANA Database ist sowohl in Windows als auch in Linux Umgebungen verfügbar. 
+---
+= Voraussetzungen für das Hinzufügen von Hosts und die Installation des SnapCenter Plug-ins für SAP HANA Database
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Bevor Sie einen Host hinzufügen und die Plug-in-Pakete installieren, müssen Sie alle Anforderungen erfüllen. Das SnapCenter Plug-in für SAP HANA Database ist sowohl in Windows als auch in Linux Umgebungen verfügbar.
+
+* Sie müssen Java 1.8 64-bit auf Ihrem Host installiert haben.
++
+
+NOTE: IBM Java wird nicht unterstützt.
+
+* Sie müssen das interaktive Terminal (HDBSQL-Client) der SAP HANA-Datenbank auf dem Host installiert haben.
+* Für Windows sollte der Plug-in Creator Service mit dem Windows-Benutzer „`LocalSystem`“ ausgeführt werden. Dies ist das Standardverhalten, wenn Plug-in für SAP HANA Database als Domänenadministrator installiert wird.
+* Unter Windows sollten Benutzer-Speicherschlüssel als SYSTEMBENUTZER erstellt werden.
+* Wenn Sie ein Plug-in auf einem Windows-Host installieren, müssen Sie UAC auf dem Host deaktivieren, wenn Sie keine Anmeldedaten angeben, die nicht integriert sind, oder wenn der Benutzer zu einem lokalen Workgroup-Benutzer gehört. Das SnapCenter Plug-in für Microsoft Windows wird standardmäßig mit dem SAP HANA Plug-in auf Windows Hosts implementiert.
+* Für Linux-Host werden HDB Secure User Store-Schlüssel als HDBSQL OS-Benutzer aufgerufen.
+* Der SnapCenter-Server sollte Zugriff auf den 8145-Port oder den benutzerdefinierten Port des Plug-ins für SAP HANA-Datenbank-Host haben.
+
+
+
+
+== Windows Hosts
+
+* Sie müssen über einen Domänenbenutzer mit lokalen Administratorrechten mit lokalen Anmeldeberechtigungen auf dem Remote-Host verfügen.
+* Bei der Installation von Plug-in für SAP HANA-Datenbank auf einem Windows-Host wird das SnapCenter Plug-in für Microsoft Windows automatisch installiert.
+* Sie müssen die passwortbasierte SSH-Verbindung für den Root- oder nicht-Root-Benutzer aktiviert haben.
+* Sie müssen Java 1.8 64-bit auf Ihrem Windows-Host installiert haben.
++
+http://www.java.com/en/download/manual.jsp["Java-Downloads für alle Betriebssysteme"]
+
++
+https://imt.netapp.com/matrix/imt.jsp?components=117015;&solution=1259&isHWU&src=IMT["NetApp Interoperabilitäts-Matrix-Tool"]
+
+
+
+
+
+== Linux-Hosts
+
+* Sie müssen die passwortbasierte SSH-Verbindung für den Root- oder nicht-Root-Benutzer aktiviert haben.
+* Sie müssen Java 1.8 64-bit auf Ihrem Linux-Host installiert haben.
++
+http://www.java.com/en/download/manual.jsp["Java-Downloads für alle Betriebssysteme"]
+
++
+https://imt.netapp.com/matrix/imt.jsp?components=117015;&solution=1259&isHWU&src=IMT["NetApp Interoperabilitäts-Matrix-Tool"]
+
+* Für SAP HANA-Datenbanken, die auf einem Linux-Host ausgeführt werden und das Plug-in für SAP HANA Database installieren, wird das SnapCenter-Plug-in für UNIX automatisch installiert.
+* Sie sollten *bash* als Standard-Shell für die Plug-in-Installation haben.
+
+
+
+
+== Zusätzliche Befehle
+
+Um einen zusätzlichen Befehl für das SnapCenter-Plug-in für SAP HANA auszuführen, müssen Sie ihn in die Datei aufnehmen `allowed_commands.config` .
+
+`allowed_commands.config` Datei befindet sich im Unterverzeichnis „etc“ des SnapCenter Plug-in for SAP HANA Verzeichnisses.
+
+.Windows Hosts
+Standard: `C:\Program Files\NetApp\SnapCenter\HANA\etc\allowed_commands.config`
+
+Benutzerdefinierter Pfad: `<Custome_Directory>\NetApp\SnapCenter\HANA\etc\allowed_commands.config` Windows-Host:
+
+.Linux-Hosts
+Standard: `/opt/NetApp/snapcenter/scc/etc/allowed_commands.config`
+
+Benutzerdefinierter Pfad: `<Custome_Directory>/NetApp/snapcenter/scc/etc/allowed_commands.config`
+
+Um zusätzliche Befehle auf dem Plug-in-Host zuzulassen, öffnen Sie `allowed_commands.config` die Datei in einem Editor. Geben Sie jeden Befehl in einer eigenen Zeile ein. Die Groß-/Kleinschreibung wird nicht beachtet. Beispiel:
+
+Befehl: Montieren
+
+Befehl: Umount
+
+Stellen Sie sicher, dass Sie den vollständigen Pfadnamen angeben. Schließen Sie den Pfadnamen in Anführungszeichen (") ein, wenn er Leerzeichen enthält. Beispiel:
+
+Befehl: „C:\Program Files\NetApp\SnapCreator commands\sdcli.exe“
+
+Befehl: myscript.bat
+
+Wenn die `allowed_commands.config` Datei nicht vorhanden ist, werden die Befehle oder die Skriptausführung blockiert, und der Workflow schlägt mit dem folgenden Fehler fehl:
+
+„[/mnt/Mount -a] Ausführung nicht zulässig. Autorisieren Sie, indem Sie den Befehl in der Datei %s auf dem Plugin-Host hinzufügen.“
+
+Wenn der Befehl oder das Skript nicht im vorhanden `allowed_commands.config`ist, wird die Ausführung des Befehls oder Skripts blockiert, und der Workflow schlägt mit dem folgenden Fehler fehl:
+
+„[/mnt/Mount -a] Ausführung nicht zulässig. Autorisieren Sie, indem Sie den Befehl in der Datei %s auf dem Plugin-Host hinzufügen.“
+
+
+NOTE: Sie sollten keinen Platzhaltereintrag (*) verwenden, um alle Befehle zuzulassen.
