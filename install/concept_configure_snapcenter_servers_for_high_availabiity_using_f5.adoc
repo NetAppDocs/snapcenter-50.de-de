@@ -26,7 +26,7 @@ Sie müssen Mitglied der Gruppe Lokale Administratoren auf den SnapCenter-Server
 * Add-SmServer
 * Entfernen Sie-SmServerCluster
 +
-Weitere Informationen finden Sie unter https://library.netapp.com/ecm/ecm_download_file/ECMLP2886895["SnapCenter Software Cmdlet Referenzhandbuch"^].
+Weitere Informationen finden Sie unter https://docs.netapp.com/us-en/snapcenter-cmdlets-50/index.html["SnapCenter Software Cmdlet Referenzhandbuch"^].
 
 
 

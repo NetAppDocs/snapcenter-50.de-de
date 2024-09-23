@@ -202,5 +202,3 @@ Der Port wird für die Kommunikation zwischen dem SnapCenter-Serverhost, dem Plu
 Sie sollten einen Benutzer mit lokalen Administratorrechten mit lokalen Anmeldeberechtigungen auf dem Remote-Host haben. Wenn Sie Cluster-Nodes verwalten, benötigen Sie einen Benutzer mit Administratorrechten für alle Nodes im Cluster.
 
 Sie sollten einen Benutzer mit sysadmin-Berechtigungen auf dem SQL Server haben. Das Plug-in verwendet Microsoft VDI Framework, für das ein Sysadmin-Zugriff erforderlich ist.
-
-Wenn Sie SnapManager für Microsoft SQL Server verwenden und Daten aus SnapManager für Microsoft SQL Server in SnapCenter importieren möchten, finden Sie weitere Informationen unter link:../protect-scsql/concept_import_archived_backups_from_snapmanager_for_sql_to_snapcenter.html["Importieren Sie archivierte Backups"^]

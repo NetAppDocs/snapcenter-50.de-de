@@ -86,7 +86,7 @@ SnapCenter umfasst REST-APIs für die meisten Funktionen zur Integration in jede
 Weitere Informationen zu REST-APIs finden Sie unter https://docs.netapp.com/us-en/snapcenter/sc-automation/overview_rest_apis.html["ÜBERSICHT ÜBER DIE REST-API"].
 
 +
-Weitere Informationen zu Windows-Cmdlets finden Sie unter https://library.netapp.com/ecm/ecm_download_file/ECMLP2886895["SnapCenter Software Cmdlet Referenzhandbuch"^].
+Weitere Informationen zu Windows-Cmdlets finden Sie unter https://docs.netapp.com/us-en/snapcenter-cmdlets-50/index.htmllllll["SnapCenter Software Cmdlet Referenzhandbuch"^].
 
 +
 Weitere Informationen zu UNIX-Befehlen finden Sie unter https://library.netapp.com/ecm/ecm_download_file/ECMLP2886896["SnapCenter Software Command Reference Guide"^].
