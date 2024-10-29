@@ -2349,7 +2349,6 @@
   <block id="ba7cbf773bd0f0004c4d97fba5034cdb" category="summary">Sie sollten das unterstützte Storage-System, die Applikationen und Datenbanken kennen.</block>
   <block id="1e1ed4854c77f284f3e97b0843b6e570" category="doc">Unterstützte Storage-Systeme und Applikationen</block>
   <block id="ed3518bf4a914f119b6bdecebdd5768f" category="paragraph">Sie sollten die unterstützten Storage-Systeme, Applikationen und Datenbanken kennen.</block>
-  <block id="c8f093093364799903de04dd2e4130fd" category="list-text">SnapCenter unterstützt ONTAP 8.3.0 und neuere Versionen für den Schutz Ihrer Daten.</block>
   <block id="213ee580d561421ab50f46ea0b22affa" category="list-text">SnapCenter unterstützt Amazon FSX für NetApp ONTAP, um Ihre Daten vor der SnapCenter Software 4.5 P1-Patch-Veröffentlichung zu schützen.</block>
   <block id="dc39fb71951ab3bfb20cab9c1beb9446" category="paragraph">Wenn Sie Amazon FSX für NetApp ONTAP verwenden, stellen Sie sicher, dass die SnapCenter Server Host-Plug-ins auf 4.5 P1 oder höher aktualisiert werden, um Datensicherungsprozesse zu auszuführen.</block>
   <block id="cc788b7e72b2a734dd0985bd1e0e9fe3" category="inline-link">Dokumentation zu Amazon FSX für NetApp ONTAP</block>
@@ -9030,4 +9029,5 @@
   <block id="220234cac5f472ab02817a1099c26930" category="paragraph">Die Informationen zu den Parametern, die mit dem Cmdlet und deren Beschreibungen verwendet werden können, können durch Ausführen von _get-Help Command_Name_ abgerufen werden. Alternativ können Sie auch die<block ref="e051f2ead2ef95df859014c037130e5b" category="inline-link-rx"></block>.</block>
   <block id="f2aad7603f69fb3a7bd74475faf67941" category="paragraph">Die Informationen zu den Parametern, die mit dem Cmdlet und deren Beschreibungen verwendet werden können, können durch Ausführen von _get-Help Command_Name_ abgerufen werden. Alternativ können Sie auch auf die verweisen<block ref="e051f2ead2ef95df859014c037130e5b" category="inline-link-rx"></block></block>
   <block id="1c3e9ee54ab1c8453c33bb85580d9d14" category="paragraph">Sie können auch ein Plug-in von mehreren Hosts deinstallieren, indem Sie das Cmdlet _Uninstall-SmHostPackage_ und die erforderlichen Parameter verwenden. Die Informationen zu den Parametern, die mit dem Cmdlet und deren Beschreibungen verwendet werden können, können durch Ausführen von _get-Help Command_Name_ abgerufen werden. Alternativ können Sie auch auf die<block ref="e051f2ead2ef95df859014c037130e5b" category="inline-link-rx"></block>.</block>
+  <block id="dddf91700099a41aae12a91632f8108f" category="list-text">SnapCenter unterstützt ONTAP 9 8 und höher zum Schutz Ihrer Daten.</block>
 </blocks>
