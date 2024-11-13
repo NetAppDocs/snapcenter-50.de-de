@@ -15,7 +15,7 @@ Jede Version von SnapCenter enthält einen aktualisierten SnapCenter-Server und 
 
 Der Workflow zeigt die verschiedenen Aufgaben, die zum Upgrade des SnapCenter-Servers und der Plug-in-Pakete erforderlich sind.
 
-image::../media/upgrade_workflow.png[Workflow-Upgrade]
+image::../media/upgrade_workflow.gif[SnapCenter Upgrade-Workflow]
 
 
 

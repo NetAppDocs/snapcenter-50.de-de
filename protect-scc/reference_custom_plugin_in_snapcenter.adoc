@@ -188,7 +188,7 @@ Ausführliche Informationen zu PowerShell Cmdlets finden Sie in der Hilfe zu Sna
 
 
 
-https://docs.netapp.com/us-en/snapcenter-cmdlets-50/index.htmll["SnapCenter Software Cmdlet Referenzhandbuch"^].
+https://docs.netapp.com/us-en/snapcenter-cmdlets-50/index.html["SnapCenter Software Cmdlet Referenzhandbuch"^].
 
 
 

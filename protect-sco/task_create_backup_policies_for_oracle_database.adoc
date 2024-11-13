@@ -126,7 +126,7 @@ Wählen Sie *Archivprotokolle aus den Zielen löschen, die Teil der Datensicheru
 
 |===
 +
-image:../media/sco_backuppolicy_prunning.gif[""]
+image:../media/sco_backuppolicy_prunning.gif["Zurückschneiden der Backup-Richtlinie"]
 
 
 
@@ -200,7 +200,7 @@ Wenn SnapLock nur auf dem sekundären aus ONTAP, dem sogenannten SnapLock-Vault,
 
 Weitere Informationen zu SnapLock Vault finden Sie unter https://docs.netapp.com/us-en/ontap/snaplock/commit-snapshot-copies-worm-concept.html["Speichern von Snapshot-Kopien in WORM-KOPIEN auf einem Vault-Ziel"]
 
-Siehe link:..protect-sco/task_view_oracle_databse_backups_and_clones_in_the_topology_page.html["Sehen Sie sich Backups und Klone von Oracle Datenbanken auf der Seite Topologie an"].
+Siehe link:task_view_oracle_databse_backups_and_clones_in_the_topology_page.html["Sehen Sie sich Backups und Klone von Oracle Datenbanken auf der Seite Topologie an"].
 
 
 
@@ -234,7 +234,7 @@ Die Voreinstellungen und Postskripte müssen entweder in _/var/opt/snapcenter/sp
 Sie können auch den Wert für das Skript-Timeout angeben. Der Standardwert ist 60 Sekunden.
 
 +
-Mit SnapCenter können Sie die vordefinierten Umgebungsvariablen verwenden, wenn Sie das Skript und das Postscript ausführen. link:../protect-sco/predefined-environment-variables-prescript-postscript-backup.html["Weitere Informationen ."^]
+Mit SnapCenter können Sie die vordefinierten Umgebungsvariablen verwenden, wenn Sie das Skript und das Postscript ausführen. link:predefined-environment-variables-prescript-postscript-backup.html["Weitere Informationen ."^]
 
 . Führen Sie auf der Seite Überprüfung die folgenden Schritte aus:
 +
