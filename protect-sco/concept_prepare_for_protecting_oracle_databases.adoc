@@ -38,13 +38,7 @@ Weitere Informationen finden Sie unter link:../protect-sco/reference_prerequisit
 ** Wenn in einer SVM mehrere Datenpfade (LIFs) vorhanden sind, wählt SnapCenter den entsprechenden Datenpfad (LIF) zur Mounten des geklonten NFS-Volumes. Wenn Sie jedoch einen bestimmten Datenpfad (LIF) angeben möchten, müssen Sie die CLI Set-SvmPreferredDataPath ausführen. Das Command Reference Guide enthält weitere Informationen.
 
 
-* Wenn Sie Oracle-Datenbanken in SAN-Umgebungen nutzen, stellen Sie sicher, dass die SAN-Umgebung gemäß der in den folgenden Leitfäden genannten Empfehlung konfiguriert ist:
-+
-** https://library.netapp.com/ecm/ecm_download_file/ECMLP2547957["Empfohlene Host-Einstellungen für Linux Unified Host Utilities"^]
-** https://library.netapp.com/ecm/ecm_download_file/ECMLP2547958["Verwendung von Linux Hosts mit ONTAP Storage"^]
-** https://library.netapp.com/ecm/ecm_download_file/ECMP1119218["Host-Einstellungen, die von AIX Host Utilities betroffen sind"^]
-
-
+* Wenn Sie Oracle-Datenbanken auf SAN-Umgebungen haben, stellen Sie sicher, dass die SAN-Umgebung gemäß der in genannten Empfehlung konfiguriert ist https://library.netapp.com/ecm/ecm_download_file/ECMP1119218["Host-Einstellungen, die von AIX Host Utilities betroffen sind"^].
 * Wenn Sie Oracle-Datenbanken auf LVM in Oracle Linux- oder RHEL-Betriebssystemen haben, installieren Sie die neueste Version von Logical Volume Management (LVM).
 * Wenn Sie SnapManager für Oracle verwenden und zu SnapCenter Plug-in für Oracle Database migrieren möchten, können Sie die Profile mithilfe des scli-Befehls sc-migrate zu Richtlinien und Ressourcengruppen von SnapCenter migrieren.
 * Konfigurieren Sie SnapMirror und SnapVault auf ONTAP, falls Sie eine Backup-Replizierung möchten
