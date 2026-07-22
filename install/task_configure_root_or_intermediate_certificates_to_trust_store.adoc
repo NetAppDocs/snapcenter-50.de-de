@@ -26,6 +26,7 @@ Sie sollten die Stammzertifikate oder Zwischenzertifikate für den SPL-Vertrauen
 
 
 
+[[configure-ca-signed-key-pair-to-spl-trust-store]]
 == Konfigurieren Sie das CA-signierte Schlüsselpaar für SPL Trust-Store
 
 Sie sollten das CA-Schlüsselpaar für den SPL Trust-Store konfigurieren.

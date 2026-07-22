@@ -18,6 +18,7 @@ NOTE: Sie können keine manuell hinzugefügten benutzerdefinierten Plug-in-Resso
 
 
 
+[[complete-resource-restore]]
 == Komplette Ressourcenwiederherstellung
 
 * Stellt alle Volumes, qtrees und LUNs einer Ressource wieder her
@@ -28,6 +29,7 @@ NOTE: Wenn die Ressource Volumes oder qtrees enthält, werden die nach dem ausge
 
 
 
+[[file-level-restore]]
 == Wiederherstellung auf Dateiebene
 
 * Wiederherstellung von Dateien aus Volumes, qtrees oder Verzeichnissen

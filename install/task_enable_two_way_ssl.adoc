@@ -39,6 +39,7 @@ Führen Sie die Befehle für alle Plug-ins und den SMCore-Agent zuerst und dann 
 
 
 
+[[disable-two-way-ssl-communication]]
 == Deaktivieren Sie die bidirektionale SSL-Kommunikation
 
 Sie können die bidirektionale SSL-Kommunikation mithilfe von PowerShell Befehlen deaktivieren.

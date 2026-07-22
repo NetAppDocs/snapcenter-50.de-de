@@ -15,12 +15,14 @@ Sie können eine SQL Server Datenbank aus einer Backup-Kopie auf einem primären
 
 
 
+[[sources-for-a-restore-operation]]
 == Quellen für einen Wiederherstellungsvorgang
 
 Sie können Datenbanken aus primärem oder sekundärem Storage wiederherstellen.
 
 
 
+[[destinations-for-a-restore-operation]]
 == Ziele für einen Wiederherstellungsvorgang
 
 Sie können Datenbanken an verschiedenen Zielen wiederherstellen:

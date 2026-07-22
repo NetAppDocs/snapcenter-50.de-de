@@ -15,6 +15,7 @@ Nach dem Hinzufügen des Speichersystems können Sie die Konfiguration und Verbi
 
 
 
+[[modify-storage-system-configuration]]
 == Konfiguration des Storage-Systems ändern
 
 Sie können mit SnapCenter die Konfiguration Ihres Storage-Systems ändern, wenn Sie den Benutzernamen, das Passwort, die Plattform, Port, das Protokoll, ändern möchten. Timeout-Zeitraum, bevorzugte IP-Adresse oder Messaging-Optionen.
@@ -72,6 +73,7 @@ Anzeige aller hinzugefügten Cluster und Änderung der erforderlichen Cluster-Ko
 
 
 
+[[delete-the-storage-system]]
 == Löschen Sie das Speichersystem
 
 Sie können SnapCenter verwenden, um alle nicht verwendeten Speichersysteme zu löschen.

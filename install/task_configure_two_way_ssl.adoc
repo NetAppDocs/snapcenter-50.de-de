@@ -115,6 +115,7 @@ Im Windows-Registrierungs-Editor, Traverse auf den unten genannten Pfad,
 
 
 
+[[configure-snapcenter-windows-plug-in-for-two-way-ssl-communication]]
 == Konfigurieren Sie das SnapCenter-Windows-Plug-in für die bidirektionale SSL-Kommunikation
 
 Sie sollten das SnapCenter-Windows-Plug-in für die bidirektionale SSL-Kommunikation mithilfe von PowerShell Befehlen konfigurieren.

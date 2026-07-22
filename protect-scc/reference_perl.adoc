@@ -32,10 +32,12 @@ Verfügbare Operationen sind
 
 
 
+[[general-plug-in-handling]]
 == Allgemeine Plug-in-Handhabung
 
 
 
+[[using-results-object]]
 === Verwenden des Ergebnisobjekts
 
 Jeder benutzerdefinierte Plug-in-Vorgang muss das Ergebnisobjekt definieren. Dieses Objekt sendet Nachrichten, Exit Code, stdout und stderr zurück an den Host-Agent.
@@ -54,6 +56,7 @@ Ergebnisobjekt wird zurückgegeben:
  return $result;
 
 
+[[preserving-data-consistency]]
 === Wahrung der Datenkonsistenz
 
 Es ist möglich, Daten zwischen den Operationen (außer Bereinigung) als Teil der gleichen Workflow-Ausführung zu erhalten. Dies erfolgt mit Schlüsselwert-Paaren. Die Daten werden als Teil des Ergebnisobjekts festgelegt und sind in den nachfolgenden Operationen desselben Workflows erhalten und verfügbar.
@@ -103,6 +106,7 @@ Meldungen auf das Ergebnisobjekt anwenden:
  $result->{message} = \@message_a;
 
 
+[[using-plug-in-stubs]]
 === Verwendung von Plug-in-Stiften
 
 Benutzerdefinierte Plug-ins müssen Plug-in-Stiche enthalten. Dies sind Methoden, die der SnapCenter-Server auf Grundlage eines Workflows aufruft.
@@ -232,6 +236,7 @@ Diese Stub wird von SnapCenter verwendet, um Anwendungsversionsdetails zu erhalt
 |===
 
 
+[[plug-in-package-information]]
 === Informationen zum Plug-in-Paket
 
 Jedes Plug-in muss folgende Informationen haben:
@@ -258,6 +263,7 @@ my %config_h = ();
 ....
 
 
+[[operations]]
 === Betrieb
 
 Sie können verschiedene Vorgänge wie Setenv, Version, Quiesce und Unquiesce codieren, die von den benutzerdefinierten Plug-ins unterstützt werden.

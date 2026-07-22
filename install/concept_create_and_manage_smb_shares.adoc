@@ -25,6 +25,7 @@ TIP: Wenn Sie sich damit wohlfühlen, können Sie Ihre eigenen Vorlagen nach den
 
 
 
+[[create-an-smb-share]]
 == Erstellen Sie eine SMB-Freigabe
 
 Auf der Seite „SnapCenter Shares“ können Sie eine SMB3-Freigabe auf einer Storage Virtual Machine (SVM) erstellen.
@@ -84,6 +85,7 @@ SnapCenter erstellt die SMB-Freigabe auf der SVM.
 
 
 
+[[delete-an-smb-share]]
 == Löschen einer SMB-Freigabe
 
 Sie können eine SMB-Freigabe löschen, wenn Sie sie nicht mehr benötigen.

@@ -15,6 +15,7 @@ Sie können den Fortschritt Ihrer Jobs überwachen, Informationen zu geplanten J
 
 
 
+[[monitor-jobs]]
 == Überwachen von Jobs
 
 Sie können Informationen zu Backup-, Klon-, Wiederherstellungs- und Verifizierungsaufgaben von SnapCenter anzeigen. Sie können diese Ansicht nach Start- und Enddatum, Jobtyp, Ressourcengruppe, Richtlinie oder SnapCenter-Plug-in filtern. Sie können auch zusätzliche Details und Protokolldateien für bestimmte Jobs erhalten.
@@ -33,6 +34,7 @@ Sie können die folgenden Aufgaben im Zusammenhang mit Überwachungsaufgaben aus
 
 
 
+[[monitor-schedules]]
 == Überwachung von Zeitplänen
 
 Sie möchten möglicherweise aktuelle Zeitpläne anzeigen, um zu bestimmen, wann der Vorgang gestartet wird, wann er zuletzt ausgeführt wurde und wann er als Nächstes ausgeführt wird. Sie können auch den Host bestimmen, auf dem der Vorgang ausgeführt wird, sowie die Ressourcengruppe und die Richtlinieninformationen des Vorgangs.
@@ -47,6 +49,7 @@ Sie möchten möglicherweise aktuelle Zeitpläne anzeigen, um zu bestimmen, wann
 
 
 
+[[monitor-events]]
 == Monitoring von Ereignissen
 
 Sie können eine Liste der SnapCenter-Ereignisse im System anzeigen, z. B. wenn ein Benutzer eine Ressourcengruppe erstellt oder wenn das System Aktivitäten initiiert, z. B. die Erstellung eines geplanten Backups. Möglicherweise möchten Sie Ereignisse anzeigen, um zu bestimmen, ob ein Vorgang, z. B. ein Backup- oder Wiederherstellungsvorgang, derzeit ausgeführt wird.
@@ -65,6 +68,7 @@ Alle Jobinformationen werden auf der Seite Ereignisse angezeigt. Wenn beispielsw
 
 
 
+[[monitor-logs]]
 == Monitoring von Protokollen
 
 Sie können SnapCenter-Serverprotokolle, SnapCenter-Host-Agent-Protokolle und Plug-in-Protokolle anzeigen und herunterladen. Sie sollten die Protokolle anzeigen, die Ihnen bei der Fehlerbehebung helfen.
@@ -115,6 +119,7 @@ NOTE: Um nach Abschluss eines Failover-Jobs auf Integrations- oder Konfiguration
 
 
 
+[[remove-jobs-and-logs-from-snapcenter]]
 == Entfernen Sie Jobs und Protokolle aus SnapCenter
 
 Sie können Backup-, Restore-, Klon- und Verifizierungsaufgaben und Protokolle aus SnapCenter entfernen. SnapCenter speichert erfolgreiche und fehlgeschlagene Job-Protokolle unbeschränkt, es sei denn, Sie entfernen sie. Möglicherweise möchten Sie sie entfernen, um den Storage aufzufüllen.

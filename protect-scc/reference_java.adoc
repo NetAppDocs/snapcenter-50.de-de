@@ -15,6 +15,7 @@ Ein benutzerdefiniertes Java Plug-in interagiert direkt mit einer Applikation wi
 
 
 
+[[limitations]]
 == Einschränkungen
 
 Es gibt bestimmte Einschränkungen, die Sie beim entwickeln eines Plug-ins mit Java-Programmiersprache beachten sollten.
@@ -59,12 +60,14 @@ Weniger als eine Stunde
 |===
 
 
+[[reason-for-java-limitations]]
 === Grund für Java-Einschränkungen
 
 Ziel des SnapCenter-Agenten ist es, eine kontinuierliche, sichere und robuste Anwendungsintegration zu gewährleisten. Durch die Unterstützung von Java-Plug-ins ist es möglich, dass Plug-ins Speicherlecks und andere unerwünschte Probleme einführen. Diese Probleme sind schwer zu bewältigen, vor allem, wenn das Ziel ist, die Dinge einfach zu bedienen. Wenn die Komplexität eines Plug-ins nicht zu komplex ist, ist es viel seltener wahrscheinlich, dass die Entwickler die Fehler verursacht hätten. Die Gefahr eines Java-Plug-ins besteht darin, dass sie in derselben JVM laufen wie der SnapCenter-Agent selbst. Wenn das Plug-in abstürzt oder Speicher leckt, kann es auch negative Auswirkungen auf den Agent haben.
 
 
 
+[[supported-methods]]
 == Unterstützte Methoden
 
 |===
@@ -171,12 +174,14 @@ Im Rahmen von ASUP Datenerfassung in jedem Workflow, wie beispielsweise Backup/R
 |===
 
 
+[[tutorial]]
 == Lernprogramm
 
 In diesem Abschnitt wird beschrieben, wie Sie ein benutzerdefiniertes Plug-in mithilfe der Java-Programmiersprache erstellen.
 
 
 
+[[setting-up-eclipse]]
 === Sonnenfinsternis einrichten
 
 . Erstellen Sie ein neues Java-Projekt "TutorialPlugin" in Eclipse
@@ -236,6 +241,7 @@ public class TutorialPlugin extends AbstractPlugin {
 
 
 
+[[implementing-the-required-methods]]
 === Umsetzung der erforderlichen Methoden
 
 Quiesce, unquiesce und Version sind obligatorische Methoden, die jedes benutzerdefinierte Java Plug-in implementieren muss.
@@ -282,6 +288,7 @@ Die Methode wird in einem Kontextobjekt übergeben. Dazu gehören mehrere Helfer
 
 
 
+[[using-result-object]]
 === Ergebnisobjekt wird verwendet
 
 Das Ergebnisobjekt enthält die folgenden Parameter:
@@ -355,6 +362,7 @@ Result result = Result.builder()
 ....
 
 
+[[versionresult]]
 === VersionResult
 
 Der VersionResult informiert den SnapCenter-Server über die Plug-in-Version. Da es auch vom Ergebnis erbt, enthält es die Parameter config, exitCode, stdout, stderr und Nachrichten.
@@ -410,6 +418,7 @@ VersionResult result = VersionResult.builder()
 ....
 
 
+[[using-the-context-object]]
 === Verwenden des Kontextobjekts
 
 Das Kontextobjekt bietet folgende Methoden:
@@ -433,12 +442,14 @@ Gibt die Konfiguration zurück, die vom SnapCenter-Server an den Agenten gesende
 |===
 
 
+[[workflow-id]]
 === Workflow-ID
 
 Die Workflow-ID ist die id, die der SnapCenter-Server verwendet, um auf einen bestimmten laufenden Workflow zu verweisen.
 
 
 
+[[config]]
 === Konfigurations
 
 Dieses Objekt enthält (die meisten) Parameter, die ein Benutzer in der Konfiguration auf dem SnapCenter-Server festlegen kann. Aus Sicherheitsgründen können jedoch einige dieser Parameter auf Server-Seite gefiltert werden. Nachfolgend ein Beispiel für den Zugriff auf die Konfiguration und den Abruf eines Parameters:
@@ -452,6 +463,7 @@ config.getParameter("PLUGIN_MANDATORY_PARAMETER");
 
 
 
+[[exporting-the-plug-in]]
 === Das Plug-in wird exportiert
 
 Sie müssen das Plug-in exportieren, um es auf dem SnapCenter-Host zu installieren.

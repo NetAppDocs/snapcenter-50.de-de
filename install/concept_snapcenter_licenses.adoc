@@ -102,6 +102,7 @@ Sie sollten eine oder mehrere SnapCenter Lizenzen installieren. Informationen zu
 
 
 
+[[single-mailbox-recovery-smbr-licenses]]
 == Single Mailbox Recovery-Lizenzen (SMBR
 
 Wenn Sie für das Management von Microsoft Exchange Server Datenbanken und Single Mailbox Recovery (SMBR) mit dem SnapCenter Plug-in für Exchange arbeiten, benötigen Sie eine zusätzliche Lizenz für SMBR, die separat in Abhängigkeit von der Benutzer-Mailbox erworben werden muss.

@@ -25,6 +25,7 @@ Um benutzerdefinierte Plug-ins in SnapCenter zu verwenden, müssen Sie die folge
 
 
 
+[[generic-plug-in-handling-in-all-api-calls]]
 == Allgemeine Plug-in-Bearbeitung bei allen API-Aufrufen
 
 Verwenden Sie für jeden API-Aufruf die folgenden Informationen:
@@ -37,6 +38,7 @@ Verwenden Sie für jeden API-Aufruf die folgenden Informationen:
 
 
 
+[[use-plug-in-parameters]]
 === Verwenden Sie Plug-in-Parameter
 
 Bei jedem API-Aufruf wird eine Reihe von Parametern an das Plug-in übergeben. In der folgenden Tabelle sind die spezifischen Informationen für die Parameter aufgeführt.
@@ -97,6 +99,7 @@ Jeder benutzerdefinierte Schlüsselwert auf Ressourcenebene steht für Plug-ins 
 |===
 
 
+[[use-exit-codes]]
 === Exit-Codes verwenden
 
 Das Plug-in gibt den Status des Vorgangs über Exit-Codes zurück an den Host. Jeder Code hat eine bestimmte Bedeutung, und das Plug-in verwendet den richtigen Exit-Code, um die gleiche anzuzeigen.
@@ -143,6 +146,7 @@ Vorgang fehlgeschlagen, Ausführung unquiesce und Beenden.
 |===
 
 
+[[log-error-messages]]
 === Fehlermeldungen protokollieren
 
 Die Fehlermeldungen werden vom Plug-in an den SnapCenter-Server übergeben. Die Meldung enthält die Meldung, die Protokollebene und den Zeitstempel.
@@ -189,6 +193,7 @@ Trace-Nachricht
 |===
 
 
+[[preserve-data-consistency]]
 === Wahrung der Datenkonsistenz
 
 Benutzerdefinierte Plug-ins bewahren Daten zwischen Operationen derselben Workflow-Ausführung auf. Ein Plug-in kann zum Beispiel Daten am Ende der Stilllegung speichern, die auch während des Betriebs ausgeführt werden können.

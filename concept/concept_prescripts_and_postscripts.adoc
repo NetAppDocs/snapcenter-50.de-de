@@ -15,6 +15,7 @@ Im Rahmen Ihrer Datensicherungsabläufe können Sie benutzerdefinierte Prescript
 
 
 
+[[supported-script-types]]
 == Unterstützte Skripttypen
 
 Die folgenden Skripttypen werden für Windows unterstützt:
@@ -37,6 +38,7 @@ NOTE: Zusammen mit Standard-Bash-Shell werden auch andere Shells wie sh-Shell, k
 
 
 
+[[script-path]]
 == Skriptpfad
 
 Alle im Rahmen des SnapCenter Betriebs ausgeführten Prescripts und Postskripte auf nicht virtualisierten und virtualisierten Storage-Systemen werden auf dem Plug-in Host ausgeführt.
@@ -55,6 +57,7 @@ NOTE: Der Skriptpfad wird zum Zeitpunkt der Ausführung validiert.
 
 
 
+[[where-to-specify-scripts]]
 == Angeben von Skripten
 
 Skripte werden in den Backup-Richtlinien angegeben. Wenn ein Sicherungsauftrag gestartet wird, ordnet die Richtlinie das Skript automatisch den gesicherten Ressourcen zu. Wenn Sie eine Sicherungsrichtlinie erstellen, können Sie die Vorschrift- und die Postscript-Argumente angeben.
@@ -64,12 +67,14 @@ NOTE: Sie können nicht mehrere Skripte angeben.
 
 
 
+[[script-timeouts]]
 == Skript-Timeouts
 
 Die Zeitüberschreitung ist standardmäßig auf 60 Sekunden eingestellt. Sie können den Zeitüberschreitungswert ändern.
 
 
 
+[[script-output]]
 == Skriptausgabe
 
 Das Standardverzeichnis für die Windows-Druckschriften und Postscripts-Ausgabedateien ist Windows\System32.

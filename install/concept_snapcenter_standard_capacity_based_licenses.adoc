@@ -34,6 +34,7 @@ SnapCenter berechnet automatisch die Kapazitätsauslastung einmal täglich um Mi
 
 
 
+[[step-1-calculate-capacity-requirements]]
 === Schritt 1: Berechnen der Kapazitätsanforderungen
 
 Bevor Sie eine kapazitätsbasierte SnapCenter Lizenz erhalten, sollten Sie die Kapazitätsmenge auf einem Host berechnen, der von SnapCenter gemanagt werden soll.
@@ -67,6 +68,7 @@ Wenn Sie jedoch nur 2 TB der insgesamt genutzten Kapazität von 5 TB schützen m
 
 
 
+[[step-2-retrieve-the-serial-number-of-capacity-based-license]]
 === Schritt 2: Rufen Sie die Seriennummer der kapazitätsbasierten Lizenz ab
 
 Ihre SnapCenter kapazitätsbasierte Lizenz-Seriennummer steht Ihnen in der Bestellbestätigung oder im Dokumentationspaket zur Verfügung. Wenn Sie diese Seriennummer nicht haben, können Sie sie jedoch von der NetApp Support Website abrufen.
@@ -89,6 +91,7 @@ Die neunstellige Seriennummer der SnapCenter-Lizenz im Format 51xxxxxxx wird ang
 
 
 
+[[step-3-generate-a-netapp-license-file]]
 === Schritt 3: Erstellen Sie eine NetApp Lizenzdatei
 
 Wenn Sie nicht Ihre Zugangsdaten für die NetApp Support-Website und die Seriennummer der SnapCenter-Lizenz in die SnapCenter GUI eingeben möchten oder wenn Sie keinen Internetzugang über SnapCenter auf die NetApp Support-Website haben, können Sie eine NetApp Lizenzdatei (NetApp Lizenzdatei, NLF) generieren. Sie können die Datei dann herunterladen und an einem Speicherort speichern, auf den über den SnapCenter-Host zugegriffen werden kann.
@@ -110,6 +113,7 @@ Wenn Sie nicht Ihre Zugangsdaten für die NetApp Support-Website und die Serienn
 
 
 
+[[step-4-add-capacity-based-license]]
 === Schritt 4: Kapazitätsbasierte Lizenz hinzufügen
 
 Wenn Sie SnapCenter mit ONTAP Select- oder Cloud Volumes ONTAP-Plattformen verwenden, sollten Sie eine oder mehrere kapazitätsbasierte SnapCenter Lizenzen installieren.

@@ -26,6 +26,7 @@ Weitere Informationen finden Sie unter https://docs.netapp.com/us-en/sc-plugin-v
 
 
 
+[[step-1-prevent-snapcenter-from-discovering-non-database-entries]]
 == Schritt 1: SnapCenter daran hindern, nicht-Datenbank-Einträge zu erkennen
 
 Sie können verhindern, dass SnapCenter nicht-Datenbank-Einträge entdeckt, die in der oratab-Datei hinzugefügt wurden.
@@ -68,6 +69,7 @@ IMPORTANT: Es wird immer empfohlen, vor dem Upgrade des SnapCenter-Plug-ins eine
 
 
 
+[[step-2-discover-resources]]
 == Schritt 2: Entdecken Sie Ressourcen
 
 Nach der Installation des Plug-ins werden alle Datenbanken auf diesem Host automatisch erkannt und auf der Seite Ressourcen angezeigt.

@@ -28,6 +28,7 @@ NOTE: IBM Java wird nicht unterstützt.
 
 
 
+[[windows-hosts]]
 == Windows Hosts
 
 * Sie müssen über einen Domänenbenutzer mit lokalen Administratorrechten mit lokalen Anmeldeberechtigungen auf dem Remote-Host verfügen.
@@ -44,6 +45,7 @@ https://imt.netapp.com/matrix/imt.jsp?components=117015;&solution=1259&isHWU&src
 
 
 
+[[linux-hosts]]
 == Linux-Hosts
 
 * Sie müssen die passwortbasierte SSH-Verbindung für den Root- oder nicht-Root-Benutzer aktiviert haben.
@@ -60,6 +62,7 @@ https://imt.netapp.com/matrix/imt.jsp?components=117015;&solution=1259&isHWU&src
 
 
 
+[[supplemental-commands]]
 == Zusätzliche Befehle
 
 Um einen zusätzlichen Befehl für das SnapCenter-Plug-in für SAP HANA auszuführen, müssen Sie ihn in die Datei aufnehmen `allowed_commands.config` .

@@ -39,6 +39,7 @@ Die anderen unterstützten Szenarien sind:
 
 
 
+[[update-the-backups-of-the-primary-storage]]
 == Aktualisieren Sie die Backups des primären Speichers
 
 Wenn der Speicher aktualisiert wird, sollten Sie die Storage Tech Refresh API oder das Cmdlet ausführen, um die alten Backups in SnapCenter mit den neuen Speicherdetails zu aktualisieren.
@@ -110,6 +111,7 @@ Dadurch wird die Snapshot-Existenzprüfung auf dem neuen primären Speicher durc
 
 
 
+[[update-the-backups-of-the-secondary-storage]]
 == Aktualisieren Sie die Backups des sekundären Speichers
 
 Wenn der Speicher aktualisiert wird, sollten Sie die Storage Tech Refresh API oder das Cmdlet ausführen, um die alten Backups in SnapCenter mit den neuen Speicherdetails zu aktualisieren.

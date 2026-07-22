@@ -15,6 +15,7 @@ Sie müssen eine Strategie definieren, bevor Sie die Restore-Vorgänge mit SnapC
 
 
 
+[[complete-resource-restore]]
 == Komplette Ressourcenwiederherstellung
 
 * Stellt alle Volumes, qtrees und LUNs einer Ressource wieder her
@@ -30,6 +31,7 @@ NOTE: Wenn die Ressource Volumes oder qtrees enthält, werden die nach dem ausge
 
 
 
+[[tenant-database]]
 == Mandanten-Datenbank
 
 * Stellt die Mandantendatenbank wieder her

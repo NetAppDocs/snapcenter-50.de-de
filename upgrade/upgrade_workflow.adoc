@@ -19,6 +19,7 @@ image::../media/upgrade_workflow.gif[SnapCenter Upgrade-Workflow]
 
 
 
+[[supported-upgrade-paths]]
 == Unterstützte Upgrade-Pfade
 
 |===

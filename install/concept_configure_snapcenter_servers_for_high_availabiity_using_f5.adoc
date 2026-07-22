@@ -32,6 +32,7 @@ Weitere Informationen finden Sie unter https://docs.netapp.com/us-en/snapcenter-
 
 
 
+[[additional-f5-configuration-information]]
 == Zusätzliche F5 Konfigurationsinformationen
 
 * Nachdem Sie SnapCenter für Hochverfügbarkeit installiert und konfiguriert haben, bearbeiten Sie die SnapCenter Desktop-Verknüpfung, um auf die F5 Cluster-IP zu verweisen.

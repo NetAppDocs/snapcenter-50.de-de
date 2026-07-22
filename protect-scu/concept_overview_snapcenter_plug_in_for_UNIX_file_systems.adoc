@@ -23,6 +23,7 @@ Wenn das Plug-in für Unix-Dateisysteme in Ihrer Umgebung installiert ist, könn
 
 
 
+[[supported-configurations]]
 == Unterstützte Konfigurationen
 
 |===
@@ -81,6 +82,7 @@ ja
 |===
 
 
+[[limitations]]
 == Einschränkungen
 
 * Die Kombination aus RDMs und virtuellen Laufwerken in einer Volume-Gruppe wird nicht unterstützt.

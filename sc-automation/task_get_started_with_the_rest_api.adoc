@@ -15,6 +15,7 @@ Die SnapCenter REST API ist ein schneller Einstieg. Der Zugriff auf die API biet
 
 
 
+[[hello-world]]
 == Hallo Welt
 
 Sie können einen einfachen Befehl auf Ihrem System ausführen, um die SnapCenter REST API zu verwenden und deren Verfügbarkeit zu bestätigen.

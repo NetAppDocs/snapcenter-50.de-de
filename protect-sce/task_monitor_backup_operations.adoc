@@ -49,6 +49,7 @@ Die Schaltfläche *Protokolle anzeigen* zeigt die detaillierten Protokolle für 
 
 
 
+[[monitor-operations-in-the-activity-pane]]
 == Überwachen Sie die Vorgänge im Teilfenster „Aktivität“
 
 Im Aktivitätsbereich werden die fünf zuletzt durchgeführten Operationen angezeigt. Der Bereich „Aktivität“ wird auch angezeigt, wenn der Vorgang initiiert wurde und der Status des Vorgangs.

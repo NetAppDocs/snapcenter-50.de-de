@@ -26,10 +26,12 @@ Das Plug-in muss ausführbar sein
 
 
 
+[[general-plug-in-handling]]
 == Allgemeine Plug-in-Handhabung
 
 
 
+[[logging-error-messages]]
 === Protokollieren von Fehlermeldungen
 
 Jeder Vorgang kann Nachrichten an den Server senden, der den Inhalt anzeigt und speichert. Eine Nachricht enthält die Nachrichtenebene, einen Zeitstempel und einen Nachrichtentext. Mehrzeilare Nachrichten werden unterstützt.
@@ -42,6 +44,7 @@ SC_MESSAGE#<level>#<timestamp>#<message>
 ....
 
 
+[[using-plug-in-stubs]]
 === Verwendung von Plug-in-Stiften
 
 SnapCenter-Plug-ins müssen Plug-in-Stiche implementieren. Hierbei handelt es sich um Methoden, die der SnapCenter-Server basierend auf einem bestimmten Workflow aufruft.
@@ -105,6 +108,7 @@ Diese Stub ist für alle Wiederherstellungsmaßnahmen verantwortlich. Dies setzt
 |===
 
 
+[[examples]]
 === Beispiele
 
 

@@ -43,6 +43,7 @@ Wenn keine QOS für die geklonten Volumes angegeben wird, wird die QOS des Quell
 
 
 
+[[perform-clone-lifecycle]]
 == Führen Sie Den Klon-Lebenszyklus Durch
 
 Mit SnapCenter können Sie Klone aus einer Ressourcengruppe oder Datenbank erstellen. Sie können entweder einen On-Demand-Klon durchführen oder wiederkehrende Klonvorgänge einer Ressourcengruppe oder Datenbank planen. Wenn Sie ein Backup regelmäßig klonen, können Sie mit dem Klon Applikationen entwickeln, Daten ausfüllen oder Daten wiederherstellen.

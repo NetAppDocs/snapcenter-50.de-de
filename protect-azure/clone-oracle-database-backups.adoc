@@ -59,6 +59,7 @@ Deaktivieren Sie das Kontrollkästchen, wenn Sie der geklonten Datenbank die DBI
 
 
 
+[[clone-a-pluggable-database]]
 == Klonen einer sofort anschließbaren Datenbank
 
 Sie können eine steckbare Datenbank (PDB) auf einem anderen oder demselben Ziel-CDB auf demselben Host oder einem anderen Host klonen. Sie können die geklonte PDB auch auf einem gewünschten SCN oder Datum und Uhrzeit wiederherstellen.
@@ -93,6 +94,7 @@ Deaktivieren Sie das Kontrollkästchen, wenn Sie der geklonten Datenbank die DBI
 
 
 
+[[split-an-oracle-database-clone]]
 == Teilen Sie einen Oracle-Datenbankklon auf
 
 Sie können SnapCenter verwenden, um eine geklonte Ressource von der übergeordneten Ressource zu trennen. Der geteilte Klon ist unabhängig von der übergeordneten Ressource.
@@ -107,6 +109,7 @@ Sie können SnapCenter verwenden, um eine geklonte Ressource von der übergeordn
 
 
 
+[[split-clone-of-a-pluggable-database]]
 == Split-Klon einer steckbaren Datenbank
 
 Sie können eine geklonte Plug-in-Datenbank (PDB) mit SnapCenter teilen.

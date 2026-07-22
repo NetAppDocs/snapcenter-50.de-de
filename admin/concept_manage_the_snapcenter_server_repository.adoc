@@ -17,6 +17,7 @@ Das SnapCenter-Server-Repository wird manchmal als NSM-Datenbank bezeichnet.
 
 
 
+[[prerequisites-for-protecting-the-snapcenter-repository]]
 == Voraussetzungen für den Schutz des SnapCenter-Repositorys
 
 Ihre Umgebung sollte bestimmte Voraussetzungen zum Schutz des SnapCenter-Repositorys erfüllen.
@@ -40,6 +41,7 @@ Für Hochverfügbarkeitskonfigurationen (HA) können Sie ein iSCSI-LUN oder eine
 
 
 
+[[back-up-the-snapcenter-repository]]
 == Sichern des SnapCenter Repositorys
 
 Wenn Sie ein Backup des SnapCenter Server Repositorys durchführen, können Sie diese vor Datenverlust schützen. Sie können das Repository durch Ausführen des Cmdlet _Protect-SmRepository_ sichern.
@@ -61,6 +63,7 @@ Das Cmdlet _Protect-SmRepository_ führt die folgenden Aufgaben aus:
 
 
 
+[[view-backups-of-the-snapcenter-repository]]
 == Anzeigen von Backups des SnapCenter Repositorys
 
 Sie können eine Liste der Datenbank-Repository-Backups von SnapCenter Server anzeigen, indem Sie das Cmdlet _get-SmReposityBackups_ ausführen.
@@ -76,6 +79,7 @@ Die Repository-Backups werden gemäß dem im Cmdlet _Protect-SmRepository_ angeg
 
 
 
+[[restore-the-snapcenter-database-repository]]
 == Wiederherstellung des SnapCenter Datenbank-Repositorys
 
 Sie können das SnapCenter-Repository wiederherstellen, indem Sie das Cmdlet _Restore-SmoryBackup_ ausführen.
@@ -110,6 +114,7 @@ NOTE: Das Backup, das zur Durchführung des Repository-Wiederherstellungsvorgang
 
 
 
+[[migrate-the-snapcenter-repository]]
 == SnapCenter-Repository migrieren
 
 Sie können das Datenbank-Repository des SnapCenter-Servers vom Standardspeicherort auf ein anderes Laufwerk migrieren. Sie können das Repository migrieren, wenn Sie es auf eine Festplatte mit mehr Speicherplatz verschieben möchten.
@@ -135,6 +140,7 @@ Das Datenverzeichnis finden Sie in der Regel unter C:\ProgramData\MySQL\MySQL Se
 
 
 
+[[reset-the-snapcenter-repository-password]]
 == Setzen Sie das SnapCenter Repository-Kennwort zurück
 
 Das MySQL Server Repository-Datenbankkennwort wird bei der Installation des SnapCenter Servers von SnapCenter 4.2 automatisch generiert. Dieses automatisch generierte Passwort ist dem SnapCenter-Benutzer an keinem Punkt bekannt. Wenn Sie auf die Repository-Datenbank zugreifen möchten, sollten Sie das Passwort zurücksetzen.

@@ -27,12 +27,14 @@ Ein Benutzer mit der Rolle „SnapCenter-Admin“ kann beispielsweise SVM-Verbin
 
 
 
+[[snapcenter-admin-role]]
 == SnapCenter Administratorrolle
 
 In der SnapCenter-Administratorrolle sind alle Berechtigungen aktiviert. Sie können die Berechtigungen für diese Rolle nicht ändern. Sie können der Rolle Benutzer und Gruppen hinzufügen oder sie entfernen.
 
 
 
+[[app-backup-and-clone-admin-role]]
 == Administratorrolle für App Backup und Klonen
 
 Die Rolle „App Backup“ und „Clone Admin“ verfügt über die erforderlichen Berechtigungen zur Durchführung administrativer Aktionen für Applikations-Backups und klonbezogene Aufgaben. Diese Rolle verfügt nicht über Berechtigungen für Host-Management, Bereitstellung, Storage-Verbindungs-Management oder Remote-Installation.
@@ -296,6 +298,7 @@ Keine Angabe
 |===
 
 
+[[backup-and-clone-viewer-role]]
 == Backup und Clone Viewer-Rolle
 
 Die Rolle Backup und Clone Viewer verfügt über eine schreibgeschützte Ansicht aller Berechtigungen. In dieser Rolle sind auch Berechtigungen für Erkennung, Berichterstellung und Zugriff auf das Dashboard aktiviert.
@@ -560,6 +563,7 @@ Keine Angabe
 |===
 
 
+[[infrastructure-admin-role]]
 == Rolle für den Infrastrukturadministrator
 
 Die Rolle „Infrastrukturadministrator“ hat Berechtigungen für Host-Management, Storage-Management, Bereitstellung, Ressourcengruppen, Remote-Installationsberichte, Zugriff auf das Dashboard.

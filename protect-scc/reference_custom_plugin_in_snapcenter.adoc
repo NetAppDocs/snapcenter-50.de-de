@@ -12,12 +12,14 @@ summary: Das erstellte benutzerdefinierte Plug-in kann auf dem Host mithilfe von
 
 
 
+[[custom-plug-in-in-snapcenter]]
 == Benutzerdefiniertes Plug-in in SnapCenter
 
 Das benutzerdefinierte Plug-in, das mit Java, PERL oder NATIVEM Stil erstellt wurde, kann über SnapCenter Server auf dem Host installiert werden, um die Datensicherung Ihrer Anwendung zu ermöglichen. Sie müssen das Plug-in exportiert haben, um es auf dem SnapCenter-Host zu installieren. Verwenden Sie dazu das in diesem Tutorial beschriebene Verfahren.
 
 
 
+[[creating-a-plug-in-description-file]]
 === Erstellen einer Plug-in-Beschreibungsdatei
 
 Für jedes erstellte Plug-in müssen Sie eine Beschreibungsdatei haben. Die Beschreibungsdatei beschreibt die Details des Plug-ins. Der Name der Datei muss Plugin_descriptor.XML sein.
@@ -145,6 +147,7 @@ Ein Beispiel für die Datei Plugin_descriptor.xml für benutzerdefinierte Plug-i
 ....
 
 
+[[creating-a-zip-file]]
 === ZIP-Datei wird erstellt
 
 Nachdem ein Plug-in entwickelt wurde und eine Deskriptordatei erstellt wurde, müssen Sie die Plug-in-Dateien und die Datei Plugin_descriptor.xml in einen Ordner einfügen und entpacken.
@@ -165,6 +168,7 @@ Beispiele:
 
 
 
+[[uploading-the-plug-in-zip-file]]
 === Hochladen der ZIP-Datei für das Plug-in
 
 Sie müssen die Plug-in-ZIP-Datei auf den SnapCenter-Server hochladen, damit das Plug-in für die Bereitstellung auf dem gewünschten Host zur Verfügung steht.
@@ -192,6 +196,7 @@ https://docs.netapp.com/us-en/snapcenter-cmdlets-50/index.html["SnapCenter Softw
 
 
 
+[[deploying-the-custom-plug-ins]]
 === Bereitstellen benutzerdefinierter Plug-ins
 
 Das hochgeladene benutzerdefinierte Plug-in steht nun als Teil des Workflows *Add* und *Modify Host* für die Bereitstellung auf dem gewünschten Host zur Verfügung. Sie können mehrere Plug-ins-Versionen auf den SnapCenter-Server hochladen lassen, und Sie können die gewünschte Version für die Bereitstellung auf einem bestimmten Host auswählen.

@@ -17,6 +17,7 @@ LUNs sind die grundlegende Storage-Einheit in einer SAN-Konfiguration. Der Windo
 
 
 
+[[establish-an-iscsi-session]]
 == Richten Sie eine iSCSI-Sitzung ein
 
 Wenn Sie iSCSI zum Herstellen einer Verbindung zu einer LUN verwenden, müssen Sie eine iSCSI-Sitzung starten, bevor Sie die LUN erstellen, um die Kommunikation zu ermöglichen.
@@ -91,6 +92,7 @@ SnapCenter richtet die iSCSI-Sitzung ein.
 
 
 
+[[disconnect-an-iscsi-session]]
 == Trennen Sie eine iSCSI-Sitzung
 
 Gelegentlich müssen Sie eine iSCSI-Sitzung von einem Ziel trennen, mit dem Sie mehrere Sitzungen haben.

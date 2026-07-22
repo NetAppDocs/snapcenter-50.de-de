@@ -52,6 +52,7 @@ NOTE: Die UUID-Zuordnung in der Datei /etc/fstab wird von SnapCenter nicht unter
 
 
 
+[[linux-host-requirements]]
 == Linux Host-Anforderungen
 
 Bevor Sie das SnapCenter-Plug-ins-Paket für Linux installieren, sollten Sie sicherstellen, dass der Host die Anforderungen erfüllt.
@@ -108,6 +109,7 @@ Die neuesten Informationen zu unterstützten Versionen finden Sie im https://imt
 
 
 
+[[configure-sudo-privileges-for-non-root-users-for-linux-host]]
 === Konfigurieren von Sudo-Berechtigungen für Benutzer ohne Root-Zugriff auf Linux-Hosts
 
 Mit SnapCenter 2.0 und höheren Versionen kann ein nicht-Root-Benutzer das SnapCenter Plug-ins-Paket für Linux installieren und das Plug-in-Verfahren starten. Die Plug-in-Prozesse werden als effektiver nicht-Root-Benutzer ausgeführt. Sie sollten sudo-Berechtigungen für den nicht-Root-Benutzer konfigurieren, um Zugriff auf mehrere Pfade zu ermöglichen.
@@ -183,6 +185,7 @@ IMPORTANT: Das Beispiel sollte nur als Referenz zur Erstellung eigener Daten ver
 
 
 
+[[aix-host-requirements]]
 == AIX Host-Anforderungen
 
 Bevor Sie das SnapCenter Plug-ins Package für AIX installieren, sollten Sie sicherstellen, dass der Host die Anforderungen erfüllt.
@@ -232,6 +235,7 @@ Die neuesten Informationen zu unterstützten Versionen finden Sie im https://imt
 
 
 
+[[configure-sudo-privileges-for-non-root-users-for-aix-host]]
 === Konfigurieren Sie sudo-Berechtigungen für Benutzer, die nicht root sind, für AIX-Host
 
 SnapCenter 4.4 und höher ermöglicht es einem nicht-Root-Benutzer, das SnapCenter Plug-ins Paket für AIX zu installieren und den Plug-in-Prozess zu starten. Die Plug-in-Prozesse werden als effektiver nicht-Root-Benutzer ausgeführt. Sie sollten sudo-Berechtigungen für den nicht-Root-Benutzer konfigurieren, um Zugriff auf mehrere Pfade zu ermöglichen.
@@ -307,6 +311,7 @@ IMPORTANT: Das Beispiel sollte nur als Referenz zur Erstellung eigener Daten ver
 
 
 
+[[set-up-credentials]]
 == Anmeldedaten einrichten
 
 SnapCenter verwendet Zugangsdaten, um Benutzer für SnapCenter-Vorgänge zu authentifizieren. Sie sollten Anmeldedaten für die Installation des Plug-in-Pakets auf Linux- oder AIX-Hosts erstellen.
@@ -384,6 +389,7 @@ Nachdem Sie die Anmeldeinformationen eingerichtet haben, möchten Sie einem Benu
 
 
 
+[[configure-credentials-for-an-oracle-database]]
 == Konfigurieren von Anmeldeinformationen für eine Oracle-Datenbank
 
 Sie müssen Anmeldedaten konfigurieren, die für Datensicherungsvorgänge in Oracle-Datenbanken verwendet werden.

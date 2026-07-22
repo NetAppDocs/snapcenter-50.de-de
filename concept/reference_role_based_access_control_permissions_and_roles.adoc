@@ -15,6 +15,7 @@ Mit der rollenbasierten Zugriffssteuerung (Role Based Access Control, RBAC) von 
 
 
 
+[[snapcenter-roles]]
 == SnapCenter Rollen
 
 SnapCenter wird mit den folgenden vordefinierten Rollen ausgeliefert. Sie können diesen Rollen Benutzer und Gruppen zuweisen oder neue Rollen erstellen.
@@ -29,6 +30,7 @@ Wenn Sie einem Benutzer eine Rolle zuweisen, werden auf der Seite „Jobs“ nur
 
 
 
+[[snapcenter-plug-in-for-vmware-vsphere-roles]]
 == SnapCenter Plug-in für VMware vSphere Rollen
 
 Für das Management der VM-konsistenten Datensicherung von VMs, VMDKs und Datastores werden in vCenter die folgenden Rollen vom SnapCenter Plug-in für VMware vSphere erstellt:
@@ -49,6 +51,7 @@ Weitere Informationen finden Sie unter https://docs.netapp.com/us-en/sc-plugin-v
 |===
 
 
+[[snapcenter-permissions]]
 == SnapCenter-Berechtigungen
 
 SnapCenter bietet folgende Berechtigungen:

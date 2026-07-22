@@ -15,6 +15,7 @@ Enthält einen zusammengefassten Satz von Vorbereitungsanweisungen für die Inst
 
 
 
+[[domain-and-workgroup-requirements]]
 == Anforderungen an Domäne und Arbeitsgruppe
 
 SnapCenter Server kann auf Systemen installiert werden, die sich entweder in einer Domäne oder in einer Arbeitsgruppe befinden.
@@ -25,6 +26,7 @@ Wenn Sie Arbeitsgruppen verwenden, sollten Sie ein lokales Konto mit lokalen Adm
 
 
 
+[[license-requirements]]
 == Lizenzanforderungen
 
 Die Art der Lizenzen, die Sie installieren, hängt von Ihrer Umgebung ab.
@@ -79,6 +81,7 @@ NOTE: Es wird empfohlen, aber nicht erforderlich, dass Sie SnapCenter Standard-L
 |===
 
 
+[[host-and-port-requirements]]
 == Anforderungen an Host und Port
 
 Mindestanforderungen für ONTAP und Applikations-Plug-in siehe https://imt.netapp.com/matrix/imt.jsp?components=117008;&solution=1259&isHWU&src=IMT["Interoperabilitäts-Matrix-Tool"^].
@@ -197,6 +200,7 @@ Der Port wird für die Kommunikation zwischen dem SnapCenter-Serverhost, dem Plu
 |===
 
 
+[[snapcenter-plug-in-for-microsoft-sql-server-requirements]]
 == Anforderungen des SnapCenter Plug-ins für Microsoft SQL Server
 
 Sie sollten einen Benutzer mit lokalen Administratorrechten mit lokalen Anmeldeberechtigungen auf dem Remote-Host haben. Wenn Sie Cluster-Nodes verwalten, benötigen Sie einen Benutzer mit Administratorrechten für alle Nodes im Cluster.

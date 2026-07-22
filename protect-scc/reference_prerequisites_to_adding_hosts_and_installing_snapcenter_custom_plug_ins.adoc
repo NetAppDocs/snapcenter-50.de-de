@@ -25,12 +25,14 @@ link:concept_develop_a_plug_in_for_your_application.html["Entwickeln Sie ein Plu
 
 
 
+[[general]]
 == Allgemein
 
 Wenn Sie iSCSI verwenden, sollte der iSCSI-Dienst ausgeführt werden.
 
 
 
+[[sha512-hash]]
 == SHA512-Hash
 
 * Bei von NetApp bereitgestellten benutzerdefinierten Plug-ins sollten Sie sicherstellen, dass Sie den SHA512-Hash der benutzerdefinierten Plug-in-Datei zur Datei _Custom_Plugin_Prüfsummen_list_ hinzugefügt haben.
@@ -69,6 +71,7 @@ Nachfolgend ein Beispiel für einen Eintrag von SHA512-Hash in der Prüfsummenda
 
 
 
+[[windows-hosts]]
 == Windows Hosts
 
 * Sie müssen über einen Domänenbenutzer mit lokalen Administratorrechten mit lokalen Anmeldeberechtigungen auf dem Remote-Host verfügen.
@@ -77,6 +80,7 @@ Nachfolgend ein Beispiel für einen Eintrag von SHA512-Hash in der Prüfsummenda
 
 
 
+[[linux-hosts]]
 == Linux-Hosts
 
 * Sie müssen die passwortbasierte SSH-Verbindung für den Root- oder nicht-Root-Benutzer aktiviert haben.

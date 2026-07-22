@@ -18,6 +18,7 @@ NOTE: Die CPU-Auslastung des Systems ist hoch, wenn gerade die Datenerfassung l�
 
 
 
+[[stop-ems-data-collection]]
 == EMS-Datenerfassung stoppen
 
 Die EMS-Datenerfassung ist standardmäßig aktiviert und wird alle sieben Tage nach dem Installationsdatum ausgeführt. Sie können die Datenerfassung jederzeit mit dem PowerShell Cmdlet _Disable-SmDataCollectionEMS_ deaktivieren.
@@ -30,6 +31,7 @@ Die EMS-Datenerfassung ist standardmäßig aktiviert und wird alle sieben Tage n
 
 
 
+[[start-ems-data-collection]]
 == Starten Sie die EMS-Datensammlung
 
 Die EMS-Datenerfassung ist standardmäßig aktiviert und wird voraussichtlich alle sieben Tage ab dem Installationsdatum ausgeführt. Wenn Sie die EMS-Datensammlung deaktiviert haben, können Sie die EMS-Datensammlung erneut mit dem Cmdlet _enable-SmDataCollectionEMS_ starten.
@@ -44,6 +46,7 @@ Die Berechtigung zum Generieren des Data ONTAP-Events „Generate-AutoSupport-lo
 
 
 
+[[change-ems-data-collection-schedule-and-target-svm]]
 == EMS-Datenerfassungsplan und Ziel-SVM ändern
 
 Mit PowerShell cmdlets können Sie den EMS-Zeitplan zur Datenerfassung oder die Ziel-Storage Virtual Machine (SVM) ändern.
@@ -57,6 +60,7 @@ Mit PowerShell cmdlets können Sie den EMS-Zeitplan zur Datenerfassung oder die 
 
 
 
+[[monitor-ems-data-collection-status]]
 == Den EMS-Datenerfassungsstatus überwachen
 
 Sie können den Status Ihrer EMS-Datensammlung mithilfe mehrerer PowerShell Commandlets überwachen. Sie erhalten Informationen zum Zeitplan, zum Storage Virtual Machine-Ziel (SVM) und zum Status.

@@ -19,6 +19,7 @@ Active Directory-Gruppen (AD), die zu Domänen gehören, die nicht mit dem SnapC
 
 
 
+[[modify-untrusted-domains]]
 == Ändern Sie nicht vertrauenswürdige Domains
 
 Sie können eine nicht vertrauenswürdige Domäne ändern, wenn Sie die IP-Adressen des Domänencontrollers oder den vollständig qualifizierten Domänennamen (FQDN) aktualisieren möchten.
@@ -58,6 +59,7 @@ Wenn der Domain-FQDN nicht lösbar ist, geben Sie eine oder mehrere IP-Adressen 
 
 
 
+[[unregister-untrusted-active-directory-domains]]
 == Nicht vertrauenswürdige Active Directory-Domänen werden nicht registriert
 
 Sie können die Registrierung einer nicht vertrauenswürdigen Active Directory-Domäne aufheben, wenn Sie die Assets, die dieser Domäne zugeordnet sind, nicht verwenden möchten.

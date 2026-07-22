@@ -18,6 +18,7 @@ NOTE: In einem Flex ASM-Setup können Sie den Mount-Vorgang auf Leaf-Knoten nich
 
 
 
+[[mount-a-database-backup]]
 == Mounten Sie ein Datenbank-Backup
 
 Sie sollten eine Datenbanksicherung manuell mounten, wenn Sie auf die Dateien im Backup zugreifen möchten.
@@ -85,6 +86,7 @@ Die Informationen zu den Parametern, die mit dem Befehl und deren Beschreibungen
 
 
 
+[[unmount-a-database-backup]]
 == Heben Sie die Bereitstellung eines Datenbank-Backups auf
 
 Sie können die Bereitstellung einer gemounteten Datenbanksicherung manuell aufheben, wenn Sie nicht mehr auf Dateien im Backup zugreifen möchten.

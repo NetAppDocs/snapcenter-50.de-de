@@ -44,6 +44,7 @@ Führen Sie die folgenden Befehle aus, um den Port-Bereich zu identifizieren:
 ====
 
 
+[[host-requirements-to-install-snapcenter-plug-ins-package-for-windows]]
 == Hostanforderungen für die Installation des SnapCenter Plug-ins Pakets für Windows
 
 Bevor Sie das SnapCenter Plug-ins-Paket für Windows installieren, sollten Sie mit einigen grundlegenden Speicherplatzanforderungen und Größenanforderungen für das Host-System vertraut sein.
@@ -93,6 +94,7 @@ Für . Informationen zur NETZSPEZIFISCHEN Fehlerbehebung finden Sie unter https:
 |===
 
 
+[[exchange-server-privileges-required]]
 == Berechtigungen für Exchange Server erforderlich
 
 Damit SnapCenter das Hinzufügen von Exchange Server oder DAG sowie die Installation des SnapCenter Plug-ins für Microsoft Exchange Server auf einem Host oder einer DAG aktivieren kann, müssen Sie SnapCenter mit Anmeldedaten für einen Benutzer mit einem Minimum an Berechtigungen und Berechtigungen konfigurieren.
@@ -128,6 +130,7 @@ Sie müssen über einen Domänenbenutzer mit lokalen Administratorrechten verfü
 
 
 
+[[host-requirements-to-install-snapcenter-plug-ins-package-for-windows]]
 == Hostanforderungen für die Installation des SnapCenter Plug-ins Pakets für Windows
 
 Bevor Sie das SnapCenter Plug-ins-Paket für Windows installieren, sollten Sie mit einigen grundlegenden Speicherplatzanforderungen und Größenanforderungen für das Host-System vertraut sein.
